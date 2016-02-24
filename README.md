@@ -1,6 +1,6 @@
 # vOO: Voorbeeld Online Ontwikkelstraat
 
-
+[![Build Status](https://travis-ci.org/mylene/vOO.svg?branch=master)](https://travis-ci.org/mylene/vOO) 
 
 ## Opzet:
 
