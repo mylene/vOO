@@ -1,15 +1,13 @@
 language: java
-
-sudo: false # faster builds
-
+sudo: false
 jdk:
   - oraclejdk8
-
 before_script:
   - pip install --user codecov
-
 after_success:
   - codecov
-# - mvn clean test jacoco:report coveralls:report
-
-
+deploy:
+  provider: heroku
+  api_key:
+    secure: kq08lXDt/V9UY1GbXsC2RLcgK+fT+zhBK1Z/9hpQYlbrH+E8Pcxbp/R6GaewIlULziYx4SDK60i1+xMIfcyVlHrN5cYov4f0S8ZbMVgihQjYZFfT81/acu1RmxFS3baS7ZlhqX+JqjDP3mPKNd4LL0/o0eV//zqu8p9Utgl6qkxSL5eyGM5TgM45Z7mXtp0BZlThjp73L47skk12DqLA+36T0HfvZ+dx5ex2brVpF2tXE1JHoKRm8f2zMNYJUTgjLVBM72tJLk1dbCecgY7M8JcM/2gke0C3ch99QqE/eIR8Mz3pq+dVOKyPbS2KCKTx3zrc7cfYW4LNcpekII+RcUJJ5cLrfqo8hoIZ5Umb4hQdBamTsf6w1dVIJqfTJbSmwLYgj6EpFmwybGcKRbjO29Ibw9wSWNp5x2S36XjPjr2y0VBILTGjCm6lFbYnnQsxb/4qHiVl+K5XQQQb/IDS423bbDDf1JPYr7gddkQErPDrTF6vavj7HXVLh8ZE2ws/Wg4MxhVbiXgA3LlHjGTJIkZ+UBnYuI+f5j9ZfVCRMJT74qwNg5tEXWwQI4lLyNIhaEScnXL8YvOXT9OMORc2a4RqTxuL+MaUtardi1MEILUDuF2UDRo+GA3HxlHPyeoRn0VBEloh/DEwB2GmUyd05EuXQe2V0U6hSVUifQG28sk=
+  app: voo
