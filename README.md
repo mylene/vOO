@@ -1,9 +1,12 @@
 # vOO: Voorbeeld Online Ontwikkelstraat
 
-[![Build Status](https://travis-ci.org/mylene/vOO.svg?branch=master)](https://travis-ci.org/mylene/vOO) &nbsp; [![Coverage Status](https://coveralls.io/repos/github/mylene/vOO/badge.svg?branch=master)](https://coveralls.io/github/mylene/vOO?branch=master) &nbsp; [![codecov.io](https://codecov.io/github/mylene/vOO/coverage.svg?branch=master)](https://codecov.io/github/mylene/vOO?branch=master) &nbsp; [![Dependency Status](https://www.versioneye.com/user/projects/56cdb9cd6b21e5003d474261/badge.svg?style=flat)](https://www.versioneye.com/user/projects/56cdb9cd6b21e5003d474261) &nbsp; [![MIT license](http://img.shields.io/badge/license-MIT-brightgreen.svg)](http://opensource.org/licenses/MIT) &nbsp; <a href="https://scan.coverity.com/projects/mylene-voo">
-  <img alt="Coverity Scan Build Status"
-       src="https://img.shields.io/coverity/scan/8052.svg"/>
-</a> 
+[![Build Status](https://travis-ci.org/mylene/vOO.svg?branch=master)](https://travis-ci.org/mylene/vOO)
+[![Coverage Status](https://coveralls.io/repos/github/mylene/vOO/badge.svg?branch=master)](https://coveralls.io/github/mylene/vOO?branch=master)
+[![codecov.io](https://codecov.io/github/mylene/vOO/coverage.svg?branch=master)](https://codecov.io/github/mylene/vOO?branch=master)
+[![Dependency Status](https://www.versioneye.com/user/projects/56cdb9cd6b21e5003d474261/badge.svg?style=flat)](https://www.versioneye.com/user/projects/56cdb9cd6b21e5003d474261)
+[![Codacy Badge](https://api.codacy.com/project/badge/grade/e8a7d768196d48739b5b84c7560ece68)](https://www.codacy.com/app/mylenereiners/vOO)
+[![MIT license](http://img.shields.io/badge/license-MIT-brightgreen.svg)](http://opensource.org/licenses/MIT)
+<a href="https://scan.coverity.com/projects/mylene-voo"><img alt="Coverity Scan Build Status" src="https://img.shields.io/coverity/scan/8052.svg"/></a> 
 
 ## Opzet:
 
