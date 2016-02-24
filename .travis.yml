@@ -1,13 +1,15 @@
 language: java
+
 sudo: false # faster builds
 
 jdk:
   - oraclejdk8
 
-before_install:
+before_script:
   - pip install --user codecov
 
 after_success:
-#  - mvn clean test jacoco:report coveralls:report
   - codecov
+#  - mvn clean test jacoco:report coveralls:report
+
 
