@@ -2,11 +2,11 @@
 
 
 
-Opzet:
+## Opzet:
 
 * Check of je [Git], [Java] en [Maven] hebt geïnstalleerd (zo niet, doe dat...).
 
-* *Onderstaande stappen kun je overslaan als je dit project gebruikt*
+*Onderstaande stappen kun je overslaan als je dit project gebruikt*
 
 * Creëer een basis Github repository, en clone dat naar je eigen omgeving
 * Maak basis Maven project van je git project.    
@@ -19,14 +19,15 @@ Opzet:
    
    
    
-   
+## Buildstraat onderdelen:    
+
 * IDE (IntelliJ IDEA gebruikt, maar is niet heel relevant (behalve voor .gitignore file :))
 * Build tool: [Maven]
 * SCM (Source Code Management System): Github
 
 
 
-Nuttige hulpmiddelen:
+##  Nuttige hulpmiddelen:
 
 * [gitignore.io] - Aanmaken .gitignore file
 *    
