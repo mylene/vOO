@@ -1,6 +1,6 @@
 # vOO: Voorbeeld Online Ontwikkelstraat
 
-[![Build Status](https://travis-ci.org/mylene/vOO.svg?branch=master)](https://travis-ci.org/mylene/vOO) 
+[![Build Status](https://travis-ci.org/mylene/vOO.svg?branch=master)](https://travis-ci.org/mylene/vOO) &nbsp; [![Coverage Status](https://coveralls.io/repos/github/mylene/vOO/badge.svg?branch=master)](https://coveralls.io/github/mylene/vOO?branch=master)
 
 <a href="https://scan.coverity.com/projects/mylene-voo">
   <img alt="Coverity Scan Build Status"
