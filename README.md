@@ -21,7 +21,7 @@
 * Ga naar [TravisCI], log in (kan met je github wachtwoord, dan heb je meteen je repositories bij de hand...), synchronise, zet de betreffende repo "aan", en maak een .travis.yml file aan.
 * Push die file naar je Github repo, en vergeet de badge niet toe te voegen aan je readme.
    
-   
+   __TODO: toevoegen coverity, coveralls, versioneye etc.____
    
 ## Buildstraat onderdelen:    
 
