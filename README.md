@@ -1,5 +1,7 @@
 # vOO: Voorbeeld Online Ontwikkelstraat
 
+Elke badge die hier getoond wordt, betreft een stap in de ontwikkelstraat. Sommige stappen worden vaker uitgevoerd.
+
 [![Build Status](https://travis-ci.org/mylene/vOO.svg?branch=master)](https://travis-ci.org/mylene/vOO)
 [![Coverage Status](https://coveralls.io/repos/github/mylene/vOO/badge.svg?branch=master)](https://coveralls.io/github/mylene/vOO?branch=master)
 [![codecov.io](https://codecov.io/github/mylene/vOO/coverage.svg?branch=master)](https://codecov.io/github/mylene/vOO?branch=master)
