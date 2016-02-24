@@ -2,6 +2,11 @@
 
 [![Build Status](https://travis-ci.org/mylene/vOO.svg?branch=master)](https://travis-ci.org/mylene/vOO) 
 
+<a href="https://scan.coverity.com/projects/mylene-voo">
+  <img alt="Coverity Scan Build Status"
+       src="https://img.shields.io/coverity/scan/8052.svg"/>
+</a>
+
 ## Opzet:
 
 * Check of je [Git], [Java] en [Maven] hebt geïnstalleerd (zo niet, doe dat...).
@@ -15,7 +20,8 @@
     (indien gewenst groupId en artifactId aanpassen!)
 * Maak een .gitignore file (zie nuttige hulpmiddelen) 
 * Check of je test werkt
-* Ga naar TravisCI.org
+* Ga naar [TravisCI], log in (kan met je github wachtwoord, dan heb je meteen je repositories bij de hand...), synchronise, zet de betreffende repo "aan", en maak een .travis.yml file aan.
+* Push die file naar je Github repo, en vergeet de badge niet toe te voegen aan je readme.
    
    
    
@@ -24,13 +30,14 @@
 * IDE (IntelliJ IDEA gebruikt, maar is niet heel relevant (behalve voor .gitignore file :))
 * Build tool: [Maven]
 * SCM (Source Code Management System): Github
+* CI: [TravisCI]
 
 
 
 ##  Nuttige hulpmiddelen:
 
 * [gitignore.io] - Aanmaken .gitignore file
-*    
+*   
    
    
    
@@ -40,6 +47,7 @@
 
 <!--- Links -->
 [gitignore.io]: http://gitignore.io/
+[TravisCI]: http://travisci.org/
 [Git]: http://git-scm.com/
 [Java]: http://www.oracle.com/technetwork/java/index.html
 [Maven]: http://maven.apache.org/
