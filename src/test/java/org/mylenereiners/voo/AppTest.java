@@ -2,6 +2,7 @@ package org.mylenereiners.voo;
 
 import org.junit.Test;
 
+import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;
 
 /**
@@ -12,7 +13,7 @@ public class AppTest{
      * Rigourous Test :-)
      */
     @Test
-    public void testApp(){
-        assertTrue( true );
+    public void testGreeting(){
+        assertEquals( "Hello Test!", App.greeting("Test") );
     }
 }
