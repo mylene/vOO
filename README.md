@@ -9,8 +9,11 @@ Waneer je op een badge klikt, ga je naar de betreffende online tool, met de data
 [![Codacy Badge](https://api.codacy.com/project/badge/grade/e8a7d768196d48739b5b84c7560ece68)](https://www.codacy.com/app/mylenereiners/vOO)
 <a href="https://scan.coverity.com/projects/mylene-voo"><img alt="Coverity Scan Build Status" src="https://img.shields.io/coverity/scan/8052.svg"/></a> 
 
+## Basis Ontwikkelstraat:
+
+![Image of Basis Ontwikkelstraat](https://github.com/mylene/vOO/blob/master/vooJava.png)
    
-## Buildstraat onderdelen:    
+## Ontwikkelstraat onderdelen:    
 
 * IDE (IntelliJ IDEA gebruikt, maar is niet heel relevant (behalve voor .gitignore file :))
 * Build tool: [Maven]
@@ -20,13 +23,9 @@ Waneer je op een badge klikt, ga je naar de betreffende online tool, met de data
 * Code Quality: [Codacy] en [Coverity] (Codacy werkt via Github (wel veel minder snel dan TravisCI), Coverity kan via TravisCI werken, maar ik gebruik hem nu stand-alone, en upload een file).
 * Check Dependencies: [VersionEye] (werkt via Github)
 
-
 ## Opzet:
 
 * Check of je [Git], [Java] en [Maven] hebt geïnstalleerd (zo niet, doe dat...).
-
-*Onderstaande stappen kun je overslaan als je dit project gebruikt*
-
 * Creëer een basis Github repository, en clone dat naar je eigen omgeving
 * Maak basis Maven project van je git project.    
     De eenvoudigste manier is door een standaard archetype te gebruiken: 
@@ -40,12 +39,10 @@ Waneer je op een badge klikt, ga je naar de betreffende online tool, met de data
 
 Momenteel ben ik bezig de code coverage in Codacy aan te zetten, maar dat werkt nog niet. Lokaal kan ik alles draaien, maar hij vindt mijn jacoco file niet vanaf Codacy. De helpdesk is er mee bezig :)
 
-
 ##  Nuttige hulpmiddelen:
 
 * [gitignore.io] - Aanmaken .gitignore file
    
-
 <!--- Links -->
 [gitignore.io]: http://gitignore.io/
 [TravisCI]: http://travisci.org/
