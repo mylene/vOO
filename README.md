@@ -42,6 +42,7 @@ Momenteel ben ik bezig de code coverage in Codacy aan te zetten, maar dat werkt 
 ##  Nuttige hulpmiddelen:
 
 * [gitignore.io] - Aanmaken .gitignore file
+* [gliffy] - Gebruikt om het plaatje te maken
    
 <!--- Links -->
 [gitignore.io]: http://gitignore.io/
@@ -53,3 +54,4 @@ Momenteel ben ik bezig de code coverage in Codacy aan te zetten, maar dat werkt 
 [Codacy]: https://www.codacy.com/
 [Coverity]: https://scan.coverity.com/
 [VersionEye]: https://www.versioneye.com/
+[gliffy]: https://www.gliffy.com/
