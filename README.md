@@ -18,10 +18,10 @@ Waneer je op een badge klikt, ga je naar de betreffende online tool, met de data
 * IDE (IntelliJ IDEA gebruikt, maar is niet heel relevant (behalve voor .gitignore file :))
 * Build tool: [Maven]
 * SCM (Source Code Management System): Github
-* CI: [TravisCI] (werkt via Github)
-* Code Coverage: [CodeCov] (werkt via TravisCI)
-* Code Quality: [Codacy] en [Coverity] (Codacy werkt via Github (wel veel minder snel dan TravisCI), Coverity kan via TravisCI werken, maar ik gebruik hem nu stand-alone, en upload een file).
-* Check Dependencies: [VersionEye] (werkt via Github)
+* CI: [TravisCI] - werkt via Github
+* Code Coverage: [CodeCov] - werkt via TravisCI
+* Code Quality: [Codacy] en [Coverity] - Codacy werkt via Github (wel veel minder snel dan TravisCI), Coverity kan via TravisCI werken, maar ik gebruik hem nu stand-alone, en upload een file.
+* Check Dependencies: [VersionEye] - werkt via Github
 
 ## Opzet:
 
