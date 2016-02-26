@@ -1,12 +1,25 @@
-# vOO: Voorbeeld Online Ontwikkelstraat
+# vOO: Voorbeeld Online Ontwikkelstraat - Java / Maven
 
 Elke badge die hier getoond wordt, betreft een stap in de ontwikkelstraat. Sommige stappen worden vaker uitgevoerd.
+Waneer je op een badge klikt, ga je naar de betreffende online tool, met de data van dit project.
 
 [![Build Status](https://travis-ci.org/mylene/vOO.svg?branch=master)](https://travis-ci.org/mylene/vOO)
 [![codecov.io](https://codecov.io/github/mylene/vOO/coverage.svg?branch=master)](https://codecov.io/github/mylene/vOO?branch=master)
 [![Dependency Status](https://www.versioneye.com/user/projects/56cdb9cd6b21e5003d474261/badge.svg?style=flat)](https://www.versioneye.com/user/projects/56cdb9cd6b21e5003d474261)
 [![Codacy Badge](https://api.codacy.com/project/badge/grade/e8a7d768196d48739b5b84c7560ece68)](https://www.codacy.com/app/mylenereiners/vOO)
 <a href="https://scan.coverity.com/projects/mylene-voo"><img alt="Coverity Scan Build Status" src="https://img.shields.io/coverity/scan/8052.svg"/></a> 
+
+   
+## Buildstraat onderdelen:    
+
+* IDE (IntelliJ IDEA gebruikt, maar is niet heel relevant (behalve voor .gitignore file :))
+* Build tool: [Maven]
+* SCM (Source Code Management System): Github
+* CI: [TravisCI] (werkt via Github)
+* Code Coverage: [CodeCov] (werkt via TravisCI)
+* Code Quality: [Codacy] en [Coverity] (Codacy werkt via Github (wel veel minder snel dan TravisCI), Coverity kan via TravisCI werken, maar ik gebruik hem nu stand-alone, en upload een file).
+* Check Dependencies: [VersionEye] (werkt via Github)
+
 
 ## Opzet:
 
@@ -23,28 +36,15 @@ Elke badge die hier getoond wordt, betreft een stap in de ontwikkelstraat. Sommi
 * Check of je test werkt
 * Ga naar [TravisCI], log in (kan met je github wachtwoord, dan heb je meteen je repositories bij de hand...), synchronise, zet de betreffende repo "aan", en maak een .travis.yml file aan.
 * Push die file naar je Github repo, en vergeet de badge niet toe te voegen aan je readme.
-   
-   __TODO: toevoegen coverity, coveralls, versioneye etc.____
-   
-## Buildstraat onderdelen:    
+* Op dezelfde manier kun je de andere tools toevoegen. Ik heb eerst coveralls geprobeerd, maar codecov is gewoon sneller en makkelijker.
 
-* IDE (IntelliJ IDEA gebruikt, maar is niet heel relevant (behalve voor .gitignore file :))
-* Build tool: [Maven]
-* SCM (Source Code Management System): Github
-* CI: [TravisCI]
-
+Momenteel ben ik bezig de code coverage in Codacy aan te zetten, maar dat werkt nog niet. Lokaal kan ik alles draaien, maar hij vindt mijn jacoco file niet vanaf Codacy. De helpdesk is er mee bezig :)
 
 
 ##  Nuttige hulpmiddelen:
 
 * [gitignore.io] - Aanmaken .gitignore file
-*   
    
-   
-   
-   
-   
-
 
 <!--- Links -->
 [gitignore.io]: http://gitignore.io/
@@ -52,3 +52,7 @@ Elke badge die hier getoond wordt, betreft een stap in de ontwikkelstraat. Sommi
 [Git]: http://git-scm.com/
 [Java]: http://www.oracle.com/technetwork/java/index.html
 [Maven]: http://maven.apache.org/
+[CodeCov]: https;//codecov.io/
+[Codacy]: https://www.codacy.com/
+[Coverity]: https://scan.coverity.com/
+[VersionEye]: https://www.versioneye.com/
