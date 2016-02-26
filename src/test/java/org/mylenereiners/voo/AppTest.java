@@ -9,7 +9,7 @@ import static org.junit.Assert.assertEquals;
  * Unit test for simple App.
  */
 public class AppTest {
-    App app;
+    private App app;
 
     @Before
     public void initializeApp() {
