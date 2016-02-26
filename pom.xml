@@ -42,11 +42,6 @@
                 </configuration>
             </plugin>
             <plugin>
-                <groupId>org.eluder.coveralls</groupId>
-                <artifactId>coveralls-maven-plugin</artifactId>
-                <version>${coveralls.version}</version>
-            </plugin>
-            <plugin>
                 <groupId>org.jacoco</groupId>
                 <artifactId>jacoco-maven-plugin</artifactId>
                 <version>${jacoco.version}</version>
@@ -59,9 +54,6 @@
                     </execution>
                     <execution>
                         <id>default-report</id>
-                        <!-- phase prepare-package is used by coveralls
-                        <phase>prepare-package</phase>
-                        -->
                         <phase>test</phase>
                         <goals>
                             <goal>report</goal>

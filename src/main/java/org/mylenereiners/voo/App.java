@@ -6,7 +6,7 @@ package org.mylenereiners.voo;
  */
 public class App 
 {
-    public static String greeting (String who){
+    public String greeting (String who){
         return "Hello " + who + "!";
     }
 }
