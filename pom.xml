@@ -13,7 +13,7 @@
         <java.version>1.8</java.version>
         <!-- plugin versions -->
         <compiler.version>3.5.1</compiler.version>
-        <jacoco.version>0.7.6.201602180812</jacoco.version>
+        <jacoco.version>0.7.7.201606060606</jacoco.version>
         <coveralls.version>4.1.0</coveralls.version>
         <dependency.version>2.10</dependency.version>
         <!-- dependency versions -->
