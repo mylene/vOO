@@ -17,7 +17,7 @@
         <coveralls.version>4.1.0</coveralls.version>
         <dependency.version>3.0.2</dependency.version>
         <!-- dependency versions -->
-        <junit.version>4.12</junit.version>
+        <junit.version>4.13.2</junit.version>
     </properties>
 
     <dependencies>
